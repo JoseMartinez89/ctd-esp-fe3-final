@@ -1,0 +1,61 @@
+.main-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+  /* Estilos para el tema "dark" */
+  .main-form.dark {
+    background-color: #333; /* Fondo oscuro para el tema "dark" */
+    color: #fff; /* Texto blanco para el tema "dark" */
+  }
+  
+  /* Estilos para los campos de entrada y el botón */
+  label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 5px;
+    font-size: 15px;
+        
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .success-message {
+    color: rgb(30, 38, 154);
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  
+   form button {
+    background-color:rgb(30, 38, 154);
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  
+  .message-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

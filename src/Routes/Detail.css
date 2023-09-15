@@ -1,0 +1,18 @@
+/* Estilo para la tabla */
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Bordes para toda la tabla */
+  }
+  
+  /* Estilo para todas las filas de la tabla (incluyendo la primera) */
+  .detail-table tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: transparent; /* Fondo transparente */
+  }
+  
+  
+  
