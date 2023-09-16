@@ -14,12 +14,12 @@ function App() {
 
   // Utiliza useEffect para observar cambios en el tema y aplicarlo
  useEffect(() => {
-    document.body.className = theme; // Aplica el tema al cuerpo del documento
+    document.body.className = theme; 
   }, [theme]);
 
   return (
     <>
-      <Router> {/*BrowserRouter*/}
+      <Router> 
         <div className="App">
           
           <Navbar />

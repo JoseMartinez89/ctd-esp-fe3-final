@@ -6,7 +6,7 @@ const Home = () => {
   const { dataApi } = useContextGlobal();
 
 
-// modificar esto trayendo del contexto global los datos de la api
+
   return (
     <main >
       <h1>Doctor Staff</h1>

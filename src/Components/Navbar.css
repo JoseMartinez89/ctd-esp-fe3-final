@@ -23,12 +23,12 @@ nav button {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  padding: 5px 10px 5px 10px; /* Ajusta el espacio alrededor del botón */
-  margin-right: 30px; /* Margen izquierdo para separar el botón de los enlaces */
+  padding: 5px 10px 5px 10px; 
+  margin-right: 30px;
 }
 
 .icon {
-  width: 14px; /* Ajusta el tamaño del icono según tus preferencias */
-  height: 48px; /* Ajusta el tamaño del icono según tus preferencias */
+  width: 20px; /* Ajusta el tamaño del icono según tus preferencias */
+  height: 25px; /* Ajusta el tamaño del icono según tus preferencias */
   margin-left: 1px; /* Ajusta el margen izquierdo del icono según tus preferencias */
 }
