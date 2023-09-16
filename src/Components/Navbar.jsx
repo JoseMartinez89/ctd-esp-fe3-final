@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className={theme}>
-      <div className="icon">
+      <div className="navIcon">
         <img src="/images/DH.ico" alt="DH Icon" />
       </div>
       

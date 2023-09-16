@@ -4,19 +4,18 @@ nav {
   justify-content: space-around; 
   align-items: center;
   padding: 10px 20px;
-  width: 100%; /* Ancho al 100% de la ventana */
+  width: 100%; 
   height:50px;
   background: rgb(206, 166, 188);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* Estilos para los enlaces */
+
 nav a {
   text-decoration: none;
   font-size: 16px;
 }
 
-/* Estilos para el botón de cambio de tema */
 nav button {
   background-color: rgb(92, 90, 90);
   border-radius: 10px;
@@ -28,7 +27,9 @@ nav button {
 }
 
 .icon {
-  width: 20px; /* Ajusta el tamaño del icono según tus preferencias */
-  height: 25px; /* Ajusta el tamaño del icono según tus preferencias */
-  margin-left: 1px; /* Ajusta el margen izquierdo del icono según tus preferencias */
+  
+  width: 20px; 
+  height: 20px; 
+  margin-left: 1px; 
 }
+

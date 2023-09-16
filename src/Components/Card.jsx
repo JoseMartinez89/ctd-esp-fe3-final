@@ -9,12 +9,6 @@ const Card = ({ user }) => {
 
   
     const isAlreadyFav= dataFavs.some((favUser) => favUser.id === user.id);
-    /*setear true si encuentra q son = user.id que viene como props de la card y favUser.id 
-    que viene de la iteración con el some en cada elemento (favUser) en el array data
-    isAlreadyFav: La variable isAlreadyFav almacenará el resultado de la operación some(). 
-    Si al menos un elemento en data cumple la condición 
-    (es decir, si la función de callback devuelve true al menos una vez), entonces isAlreadyFav será true. 
-    En caso contrario, si ningún elemento cumple la condición, será false.*/
   
 
   const addFav = () => {
@@ -22,7 +16,7 @@ const Card = ({ user }) => {
       const newDataFavs = [...dataFavs, user];
       setDataFavs(newDataFavs);
       localStorage.setItem('favorites', JSON.stringify(newDataFavs));
-      setIsFavorite(true); // Marcamos la tarjeta como favorita al hacer clic en el botón
+      setIsFavorite(true); 
     }
   };
 
@@ -38,7 +32,7 @@ const Card = ({ user }) => {
         <p>User: {user.username}</p>
         <p>E-mail: {user.email}</p>
       </Link>
-      <button onClick={addFav} className="favButton">Add to Favs</button>
+      <button onClick={addFav} className="favBtn">Add to Favs</button>
     </div>
   );
 };
@@ -47,15 +41,3 @@ export default Card;
 
 
 
-//codigo a tener en cuenta para borrar el local storage
-
-/*useEffect(() => {
-    // Verificar si hay datos de favoritos en el localStorage
-    const favoritesData = localStorage.getItem("favorites");
-
-    // Si hay datos de favoritos en el localStorage, eliminarlos 
-    //(lo hice para limpiar mi local storage y hacer pruebas)
-    if (favoritesData) {
-      localStorage.removeItem("favorites");
-    }
-  }, []);*/
