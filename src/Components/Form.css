@@ -5,13 +5,13 @@
    
   }
   
-  /* Estilos para el tema "dark" */
+  
   .main-form.dark {
-    background-color: #333; /* Fondo oscuro para el tema "dark" */
-    color: #fff; /* Texto blanco para el tema "dark" */
+    background-color: #333; 
+    color: #fff; 
   }
   
-  /* Estilos para los campos de entrada y el botón */
+  
   label {
     display: block;
     font-size: 15px;
